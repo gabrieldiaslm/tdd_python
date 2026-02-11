@@ -1,4 +1,5 @@
 def soma(x, y):
+    #doctest
     '''
     Soma x + y
     >>> soma(10,20)
@@ -9,6 +10,7 @@ def soma(x, y):
     AssertionError: x precisa ser int ou float
 
     '''
+    #assertion
     assert isinstance(x, (float, int)), 'x precisa ser int ou float'
     assert isinstance(y, (float, int)), 'y precisa ser int ou float'
     return x + y
