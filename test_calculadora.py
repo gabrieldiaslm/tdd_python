@@ -28,4 +28,7 @@ class TestCalculadora(unittest.TestCase):
     def teste_y_nao_eh_int_ou_float_deve_retornar_assertionerror(self):
         with self.assertRaises(AssertionError):
             soma(10, '2')
-unittest.main(verbosity=1)
+
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
